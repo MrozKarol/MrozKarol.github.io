@@ -90,7 +90,7 @@ footer {
 
 @media screen and (max-width: 1024px) {
   .nav-links {
-    width: 20%;
+    width: 30%;
   }
   .contact a {
     opacity: 1;
@@ -99,7 +99,7 @@ footer {
 
 @media screen and (max-width: 768px) {
   body {
-    overflow-x: hidden;
+    overflow-x:hidden;
   }
   .nav-links {
     position: absolute;
