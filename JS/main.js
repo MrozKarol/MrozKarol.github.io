@@ -53,6 +53,11 @@ const navSide = () => {
 
 }
 
+const footerDate = () =>{
+    const date = document.querySelector('footer p')
+    date.innerHTML= `2018 -${new Date().getFullYear()} :)`
+}
 
 textTyping()
 navSide()
+footerDate()

@@ -72,6 +72,20 @@ nav {
 }
 /* 1-NavbarStyle-End */
 
+footer {
+  position:absolute;
+  bottom:0;
+  width:100%;
+  min-height: 4vh;
+  background: rgb(119, 111, 131);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 236, 236);
+  letter-spacing: 2px;
+}
+
+
 /* Media-Start */
 
 @media screen and (max-width: 1024px) {
@@ -137,7 +151,7 @@ nav {
   transform: rotate(45deg) translate(-5px, -6px);
 }
 
-@media screen and (max-width: 576px) {
-}
+/* @media screen and (max-width: 576px) {
+} */
 
 /* Media-End */
